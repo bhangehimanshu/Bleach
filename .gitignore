@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build and Output directories
+dist/
+**/dist/
+build/
+
+# Server Uploads and Outputs
+server/uploads/*
+!server/uploads/.gitkeep
+server/outputs/*
+!server/outputs/.gitkeep
+uploads/
+outputs/
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.ass
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# System and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
